@@ -1,0 +1,7 @@
+<launch>
+	<node name="transmit_receive_node" pkg="interface_pkg" type="transmit_receive_node" output="screen">
+		<param name="isInit" type="bool" value="false"/>
+	</node>
+	<node name="manipulator_node" pkg="manipulator_pkg" type="manipulator_node" output="screen"/>
+	<node name="key_parameter_tuning_node" pkg="control_pkg" type="key_parameter_tuning_node" />
+</launch> 

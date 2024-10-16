@@ -1,0 +1,8 @@
+prefix=/home/robot5/robot5_ws/src/build/devel
+
+Name: udpmaster_pkg
+Description: Description of udpmaster_pkg
+Version: 0.0.0
+Cflags: -I/home/robot5/robot5_ws/src/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

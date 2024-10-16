@@ -1,0 +1,10 @@
+<launch>
+  <node pkg="imu_pkg" name="imu_tf" type="imu_tf">
+    <!-- <param name="imu_topic"  value="/imu"/>  -->
+     <!-- <param name="position_x"  value="1"/>
+    <param name="position_y"  value="1"/>
+    <param name="position_z"  value="0"/> -->
+ <!-- <remap from="/imu/data"  to="/imu"/>  將節點訂閱的話題/imu/data映射到/imu-->
+
+  </node>
+</launch> 

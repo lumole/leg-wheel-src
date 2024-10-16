@@ -1,0 +1,4 @@
+<launch>
+    <node name="plan_node" pkg="plan_pkg" type="plan_node" output="screen">
+    </node>
+</launch>

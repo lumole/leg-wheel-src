@@ -1,0 +1,7 @@
+<launch>
+        <node pkg="centralized_plan_pkg" type="centralized_plan_pkg" name="dmpc_node" output="screen" />
+        <node name="rviz" pkg="rviz" type="rviz"
+                args="-d $(find centralized_plan_pkg)/myrvizdefault.rviz" />
+        <!-- <node pkg="udpmaster_pkg" type="master_relay" name="master" required="true" output="screen"/> -->
+        <!-- <node pkg="udpmaster_pkg" type="sim_remap.py" name="sim_remap" required="true" output="screen" /> -->
+</launch>

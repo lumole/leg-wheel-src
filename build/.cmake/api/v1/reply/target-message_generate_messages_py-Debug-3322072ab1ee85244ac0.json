@@ -1,0 +1,345 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"build/message/cmake/message-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"message/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 737,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 834,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 754,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 764,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 760,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 770,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 762,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 756,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 744,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 748,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 750,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 766,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 768,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 746,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 752,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 758,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "std_msgs_generate_messages_py::@7f0c018c2cdfb102b23c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "_message_generate_messages_check_deps_vmc_interface::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "_message_generate_messages_check_deps_manipulator::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "_message_generate_messages_check_deps_lqr_state::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "_message_generate_messages_check_deps_rs232_elec_mag_state::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_message_generate_messages_check_deps_pid_state::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "_message_generate_messages_check_deps_kinematics_interface::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "_message_generate_messages_check_deps_cmb_interface::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "_message_generate_messages_check_deps_imu_controller::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "_message_generate_messages_check_deps_interface_controller::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "_message_generate_messages_check_deps_rs232::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "_message_generate_messages_check_deps_rs232_elec_mag_ctrl::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "_message_generate_messages_check_deps_cmb_slave::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "_message_generate_messages_check_deps_pid_interface::@7f4a23d90de90d100754"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "_message_generate_messages_check_deps_d435i_imu_controller::@7f4a23d90de90d100754"
+		}
+	],
+	"id" : "message_generate_messages_py::@7f4a23d90de90d100754",
+	"name" : "message_generate_messages_py",
+	"paths" : 
+	{
+		"build" : "message",
+		"source" : "message"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/message/CMakeFiles/message_generate_messages_py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/message/CMakeFiles/message_generate_messages_py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_cmb_interface.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_cmb_slave.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_imu_controller.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_interface_controller.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_pid_interface.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_vmc_interface.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_kinematics_interface.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_d435i_imu_controller.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_lqr_state.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_pid_state.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_manipulator.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_rs232.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_rs232_elec_mag_ctrl.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/_rs232_elec_mag_state.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/message/msg/__init__.py.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

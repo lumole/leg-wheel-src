@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/cmd_arm_node.dir/src/cmd_arm_node.cpp.o  -o ../devel/lib/manipulator_pkg/cmd_arm_node   -L/home/robot5/robot5_ws/src/manipulator_pkg/lib 

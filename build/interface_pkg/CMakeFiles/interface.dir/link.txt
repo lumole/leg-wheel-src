@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libinterface.so -o ../devel/lib/libinterface.so CMakeFiles/interface.dir/src/interface.cpp.o   -L/home/robot5/robot5_ws/src/interface_pkg/lib 

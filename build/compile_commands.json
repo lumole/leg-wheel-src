@@ -1,0 +1,192 @@
+[
+{
+  "directory": "/home/robot5/robot5_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/gtest/googletest",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/gtest/googletest",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/centralized_plan_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"centralized_plan_pkg\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o CMakeFiles/centralized_plan_pkg.dir/src/main.cpp.o -c /home/robot5/robot5_ws/src/centralized_plan_pkg/src/main.cpp",
+  "file": "/home/robot5/robot5_ws/src/centralized_plan_pkg/src/main.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/centralized_plan_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"centralized_plan_pkg\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o CMakeFiles/centralized_plan_pkg.dir/src/batch_solver.cpp.o -c /home/robot5/robot5_ws/src/centralized_plan_pkg/src/batch_solver.cpp",
+  "file": "/home/robot5/robot5_ws/src/centralized_plan_pkg/src/batch_solver.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/interface_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"interface_pkg\\\" -Dmotor_can_EXPORTS -I/home/robot5/robot5_ws/src/interface_pkg/include -I/home/robot5/robot5_ws/src/interface_pkg/src -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -o CMakeFiles/motor_can.dir/src/motor_can.cpp.o -c /home/robot5/robot5_ws/src/interface_pkg/src/motor_can.cpp",
+  "file": "/home/robot5/robot5_ws/src/interface_pkg/src/motor_can.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/interface_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"interface_pkg\\\" -Dinterface_EXPORTS -I/home/robot5/robot5_ws/src/interface_pkg/include -I/home/robot5/robot5_ws/src/interface_pkg/src -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -o CMakeFiles/interface.dir/src/interface.cpp.o -c /home/robot5/robot5_ws/src/interface_pkg/src/interface.cpp",
+  "file": "/home/robot5/robot5_ws/src/interface_pkg/src/interface.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/interface_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"interface_pkg\\\" -I/home/robot5/robot5_ws/src/interface_pkg/include -I/home/robot5/robot5_ws/src/interface_pkg/src -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/robot_init_node.dir/src/robot_init.cpp.o -c /home/robot5/robot5_ws/src/interface_pkg/src/robot_init.cpp",
+  "file": "/home/robot5/robot5_ws/src/interface_pkg/src/robot_init.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/interface_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"interface_pkg\\\" -I/home/robot5/robot5_ws/src/interface_pkg/include -I/home/robot5/robot5_ws/src/interface_pkg/src -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/transmit_receive_node.dir/src/transmit_receive.cpp.o -c /home/robot5/robot5_ws/src/interface_pkg/src/transmit_receive.cpp",
+  "file": "/home/robot5/robot5_ws/src/interface_pkg/src/transmit_receive.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/manipulator_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"manipulator_pkg\\\" -I/opt/ros/noetic/include -I/home/robot5/robot5_ws/src/manipulator_pkg/include -I/home/robot5/robot5_ws/src/manipulator_pkg/src -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/cmd2arm_node.dir/src/cmd2arm_node.cpp.o -c /home/robot5/robot5_ws/src/manipulator_pkg/src/cmd2arm_node.cpp",
+  "file": "/home/robot5/robot5_ws/src/manipulator_pkg/src/cmd2arm_node.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/manipulator_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"manipulator_pkg\\\" -Dmanipulator_common_EXPORTS -I/opt/ros/noetic/include -I/home/robot5/robot5_ws/src/manipulator_pkg/include -I/home/robot5/robot5_ws/src/manipulator_pkg/src -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -o CMakeFiles/manipulator_common.dir/src/common.cpp.o -c /home/robot5/robot5_ws/src/manipulator_pkg/src/common.cpp",
+  "file": "/home/robot5/robot5_ws/src/manipulator_pkg/src/common.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/manipulator_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"manipulator_pkg\\\" -Dmanipulator_EXPORTS -I/opt/ros/noetic/include -I/home/robot5/robot5_ws/src/manipulator_pkg/include -I/home/robot5/robot5_ws/src/manipulator_pkg/src -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/jsoncpp  -g -fPIC   -o CMakeFiles/manipulator.dir/src/manipulator.cpp.o -c /home/robot5/robot5_ws/src/manipulator_pkg/src/manipulator.cpp",
+  "file": "/home/robot5/robot5_ws/src/manipulator_pkg/src/manipulator.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/manipulator_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"manipulator_pkg\\\" -I/opt/ros/noetic/include -I/home/robot5/robot5_ws/src/manipulator_pkg/include -I/home/robot5/robot5_ws/src/manipulator_pkg/src -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/jsoncpp  -g   -o CMakeFiles/manipulator_node.dir/src/manipulator_node.cpp.o -c /home/robot5/robot5_ws/src/manipulator_pkg/src/manipulator_node.cpp",
+  "file": "/home/robot5/robot5_ws/src/manipulator_pkg/src/manipulator_node.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/rs232_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rs232_pkg\\\" -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/test_pub.dir/src/test_pub.cpp.o -c /home/robot5/robot5_ws/src/rs232_pkg/src/test_pub.cpp",
+  "file": "/home/robot5/robot5_ws/src/rs232_pkg/src/test_pub.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/rs232_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rs232_pkg\\\" -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/elec_mag.dir/src/elec_mag.cpp.o -c /home/robot5/robot5_ws/src/rs232_pkg/src/elec_mag.cpp",
+  "file": "/home/robot5/robot5_ws/src/rs232_pkg/src/elec_mag.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/control_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"control_pkg\\\" -I/home/robot5/robot5_ws/src/control_pkg/include -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -O3  -Wall -g   -o CMakeFiles/vmc_node.dir/src/vmc_node.cpp.o -c /home/robot5/robot5_ws/src/control_pkg/src/vmc_node.cpp",
+  "file": "/home/robot5/robot5_ws/src/control_pkg/src/vmc_node.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/control_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"control_pkg\\\" -Dcontroller_EXPORTS -I/home/robot5/robot5_ws/src/control_pkg/include -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -O3  -Wall -g -fPIC   -o CMakeFiles/controller.dir/src/controller.cpp.o -c /home/robot5/robot5_ws/src/control_pkg/src/controller.cpp",
+  "file": "/home/robot5/robot5_ws/src/control_pkg/src/controller.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/control_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"control_pkg\\\" -Dpid_EXPORTS -I/home/robot5/robot5_ws/src/control_pkg/include -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -O3  -Wall -g -fPIC   -o CMakeFiles/pid.dir/src/pid.cpp.o -c /home/robot5/robot5_ws/src/control_pkg/src/pid.cpp",
+  "file": "/home/robot5/robot5_ws/src/control_pkg/src/pid.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/control_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"control_pkg\\\" -Dtimevar_EXPORTS -I/home/robot5/robot5_ws/src/control_pkg/include -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -O3  -Wall -g -fPIC   -o CMakeFiles/timevar.dir/src/timevar.cpp.o -c /home/robot5/robot5_ws/src/control_pkg/src/timevar.cpp",
+  "file": "/home/robot5/robot5_ws/src/control_pkg/src/timevar.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/control_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"control_pkg\\\" -DVMC_EXPORTS -I/home/robot5/robot5_ws/src/control_pkg/include -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -O3  -Wall -g -fPIC   -o CMakeFiles/VMC.dir/src/VMC.cpp.o -c /home/robot5/robot5_ws/src/control_pkg/src/VMC.cpp",
+  "file": "/home/robot5/robot5_ws/src/control_pkg/src/VMC.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/control_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"control_pkg\\\" -Dcontrol_common_EXPORTS -I/home/robot5/robot5_ws/src/control_pkg/include -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -O3  -Wall -g -fPIC   -o CMakeFiles/control_common.dir/src/common.cpp.o -c /home/robot5/robot5_ws/src/control_pkg/src/common.cpp",
+  "file": "/home/robot5/robot5_ws/src/control_pkg/src/common.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/control_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"control_pkg\\\" -Dcallback_EXPORTS -I/home/robot5/robot5_ws/src/control_pkg/include -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -O3  -Wall -g -fPIC   -o CMakeFiles/callback.dir/src/callback.cpp.o -c /home/robot5/robot5_ws/src/control_pkg/src/callback.cpp",
+  "file": "/home/robot5/robot5_ws/src/control_pkg/src/callback.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/control_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"control_pkg\\\" -I/home/robot5/robot5_ws/src/control_pkg/include -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -O3  -Wall -g   -o CMakeFiles/test_node.dir/src/test_node.cpp.o -c /home/robot5/robot5_ws/src/control_pkg/src/test_node.cpp",
+  "file": "/home/robot5/robot5_ws/src/control_pkg/src/test_node.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/control_pkg",
+  "command": "/usr/bin/g++  -DLQR_EXPORTS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"control_pkg\\\" -I/home/robot5/robot5_ws/src/control_pkg/include -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -O3  -Wall -g -fPIC   -o CMakeFiles/LQR.dir/src/LQR.cpp.o -c /home/robot5/robot5_ws/src/control_pkg/src/LQR.cpp",
+  "file": "/home/robot5/robot5_ws/src/control_pkg/src/LQR.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/control_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"control_pkg\\\" -I/home/robot5/robot5_ws/src/control_pkg/include -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -O3  -Wall -g   -o CMakeFiles/key_parameter_tuning_node.dir/src/key_parameter_tuning_node.cpp.o -c /home/robot5/robot5_ws/src/control_pkg/src/key_parameter_tuning_node.cpp",
+  "file": "/home/robot5/robot5_ws/src/control_pkg/src/key_parameter_tuning_node.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/control_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"control_pkg\\\" -Dkeyboard_EXPORTS -I/home/robot5/robot5_ws/src/control_pkg/include -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -O3  -Wall -g -fPIC   -o CMakeFiles/keyboard.dir/src/keyboard.cpp.o -c /home/robot5/robot5_ws/src/control_pkg/src/keyboard.cpp",
+  "file": "/home/robot5/robot5_ws/src/control_pkg/src/keyboard.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/joy",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"joy\\\" -I/home/robot5/robot5_ws/src/joy/msg/cpp -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=gnu++11 -o CMakeFiles/joy_node.dir/src/joy_node.cpp.o -c /home/robot5/robot5_ws/src/joy/src/joy_node.cpp",
+  "file": "/home/robot5/robot5_ws/src/joy/src/joy_node.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/imu_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_pkg\\\" -I/home/robot5/robot5_ws/src/imu_pkg/include -I/home/robot5/robot5_ws/src/imu_pkg/src -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -std=c++0x -g   -o CMakeFiles/ahrs_driver.dir/src/ahrs_driver.cpp.o -c /home/robot5/robot5_ws/src/imu_pkg/src/ahrs_driver.cpp",
+  "file": "/home/robot5/robot5_ws/src/imu_pkg/src/ahrs_driver.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/imu_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_pkg\\\" -I/home/robot5/robot5_ws/src/imu_pkg/include -I/home/robot5/robot5_ws/src/imu_pkg/src -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -std=c++0x -g   -o CMakeFiles/imu_tf.dir/src/imu_tf.cpp.o -c /home/robot5/robot5_ws/src/imu_pkg/src/imu_tf.cpp",
+  "file": "/home/robot5/robot5_ws/src/imu_pkg/src/imu_tf.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/imu_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_pkg\\\" -Dcrc_table_EXPORTS -I/home/robot5/robot5_ws/src/imu_pkg/include -I/home/robot5/robot5_ws/src/imu_pkg/src -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -std=c++0x -g -fPIC   -o CMakeFiles/crc_table.dir/src/crc_table.cpp.o -c /home/robot5/robot5_ws/src/imu_pkg/src/crc_table.cpp",
+  "file": "/home/robot5/robot5_ws/src/imu_pkg/src/crc_table.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/plan_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plan_pkg\\\" -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/plan_node.dir/src/control.cpp.o -c /home/robot5/robot5_ws/src/plan_pkg/src/control.cpp",
+  "file": "/home/robot5/robot5_ws/src/plan_pkg/src/control.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/plan_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plan_pkg\\\" -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/plan_node.dir/src/common.cpp.o -c /home/robot5/robot5_ws/src/plan_pkg/src/common.cpp",
+  "file": "/home/robot5/robot5_ws/src/plan_pkg/src/common.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/plan_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plan_pkg\\\" -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/plan_node.dir/src/geometry.cpp.o -c /home/robot5/robot5_ws/src/plan_pkg/src/geometry.cpp",
+  "file": "/home/robot5/robot5_ws/src/plan_pkg/src/geometry.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/plan_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plan_pkg\\\" -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/plan_node.dir/src/pid.cpp.o -c /home/robot5/robot5_ws/src/plan_pkg/src/pid.cpp",
+  "file": "/home/robot5/robot5_ws/src/plan_pkg/src/pid.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/plan_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plan_pkg\\\" -I/home/robot5/robot5_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/plan_node.dir/src/Test.cpp.o -c /home/robot5/robot5_ws/src/plan_pkg/src/Test.cpp",
+  "file": "/home/robot5/robot5_ws/src/plan_pkg/src/Test.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/udpmaster_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"udpmaster_pkg\\\" -I/home/robot5/robot5_ws/src/build/devel/include -I/home/robot5/robot5_ws/src/udpmaster_pkg/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/master_relay.dir/src/master.cpp.o -c /home/robot5/robot5_ws/src/udpmaster_pkg/src/master.cpp",
+  "file": "/home/robot5/robot5_ws/src/udpmaster_pkg/src/master.cpp"
+},
+{
+  "directory": "/home/robot5/robot5_ws/src/build/udpmaster_pkg",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"udpmaster_pkg\\\" -I/home/robot5/robot5_ws/src/build/devel/include -I/home/robot5/robot5_ws/src/udpmaster_pkg/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/master_relay.dir/src/udp_master.cpp.o -c /home/robot5/robot5_ws/src/udpmaster_pkg/src/udp_master.cpp",
+  "file": "/home/robot5/robot5_ws/src/udpmaster_pkg/src/udp_master.cpp"
+}
+]

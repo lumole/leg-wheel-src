@@ -1,0 +1,8 @@
+prefix=/home/robot5/robot5_ws/src/build/devel
+
+Name: message
+Description: Description of message
+Version: 0.0.0
+Cflags: -I/home/robot5/robot5_ws/src/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime roscpp rospy std_msgs

@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robot5/robot5_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/robot5/robot5_ws/src/control_pkg/include/**",
+        "/home/robot5/robot5_ws/src/imu_pkg/include/**",
+        "/home/robot5/robot5_ws/src/interface_pkg/include/**",
+        "/home/robot5/robot5_ws/src/manipulator_pkg/include/**",
+        "/home/robot5/robot5_ws/src/message/include/**",
+        "/home/robot5/robot5_ws/src/rs232_pkg/include/**",
+        "/home/robot5/robot5_ws/src/udpmaster_pkg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -O3  -Wall -g  -shared -Wl,-soname,libcontroller.so -o ../devel/lib/libcontroller.so CMakeFiles/controller.dir/src/controller.cpp.o 

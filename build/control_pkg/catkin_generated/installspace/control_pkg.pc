@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: control_pkg
+Description: Description of control_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp rospy sensor_msgs std_msgs message_generation message_runtime

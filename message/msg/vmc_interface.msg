@@ -1,0 +1,10 @@
+Header header
+int16 T_l
+int16 T1_l
+int16 T2_l
+int16 T_r
+int16 T1_r
+int16 T2_r
+int16 flag
+float32 F_l
+float32 F_r

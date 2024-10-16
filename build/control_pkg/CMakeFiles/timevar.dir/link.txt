@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -O3  -Wall -g  -shared -Wl,-soname,libtimevar.so -o ../devel/lib/libtimevar.so CMakeFiles/timevar.dir/src/timevar.cpp.o 

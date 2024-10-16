@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -O3  -Wall -g  -shared -Wl,-soname,libpid.so -o ../devel/lib/libpid.so CMakeFiles/pid.dir/src/pid.cpp.o 

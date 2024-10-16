@@ -1,0 +1,13 @@
+<launch>
+	<node name="transmit_receive_node" pkg="interface_pkg" type="transmit_receive_node" >
+		<param name="isInit" type="bool" value="false"/>
+	</node>
+	<node name="manipulator_node" pkg="manipulator_pkg" type="manipulator_node" />
+	<node name="key_parameter_tuning_node" pkg="control_pkg" type="key_parameter_tuning_node" />
+	<node name="joy_node" pkg="joy" type="joy_node" />
+	<node name="vmc_node" pkg="control_pkg" type="vmc_node" output="screen" >
+			<param name="isTestMode" type="bool" value="false"/>
+	</node>
+	<include file="$(find imu_pkg)/launch/imu_pkg.launch"/>
+	<include file="$(find imu_pkg)/launch/tf.launch"/>
+</launch> 

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam param="cfg_path" subst_value="True">"$(find udpmaster_pkg)/config/master.yaml"</rosparam>
+    <!-- 主车udp通信节点 -->
+    <node pkg="udpmaster_pkg" type="master_relay" name="master" required="true" output="screen">
+    </node>
+</launch>

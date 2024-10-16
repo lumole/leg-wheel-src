@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/first/ritian/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/first/ritian/src/control_pkg/include/**",
+        "/home/first/ritian/src/d435i_pkg/include/**",
+        "/home/first/ritian/src/imu_pkg/include/**",
+        "/home/first/ritian/src/interface_pkg/include/**",
+        "/home/first/ritian/src/kinematics_pkg/include/**",
+        "/home/first/ritian/src/message/include/**",
+        "/home/first/practice/src/practice1/include/**",
+        "/home/first/ritian/src/realsense2_camera/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -O3  -Wall -g  -shared -Wl,-soname,libLQR.so -o ../devel/lib/libLQR.so CMakeFiles/LQR.dir/src/LQR.cpp.o 

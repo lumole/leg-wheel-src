@@ -1,0 +1,17 @@
+Header header
+float32 dx_l
+float32 dx_r
+float32 slave_l_L0_exp
+float32 slave_r_L0_exp
+float32 slave_l_xx_exp
+float32 slave_r_xx_exp
+float32 COMB_roll_exp
+float32 COMB_pitch_exp
+float32 T_l
+float32 P1_l
+float32 P2_l
+float32 T_r
+float32 P1_r
+float32 P2_r
+int16 F_flag
+int16 flag

@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -O3  -Wall -g  -shared -Wl,-soname,libcallback.so -o ../devel/lib/libcallback.so CMakeFiles/callback.dir/src/callback.cpp.o 

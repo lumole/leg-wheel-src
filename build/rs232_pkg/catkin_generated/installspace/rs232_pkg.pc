@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: rs232_pkg
+Description: Description of rs232_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -std=c++0x -g  -shared -Wl,-soname,libcrc_table.so -o ../devel/lib/libcrc_table.so CMakeFiles/crc_table.dir/src/crc_table.cpp.o 

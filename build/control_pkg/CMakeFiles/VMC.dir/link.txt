@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -O3  -Wall -g  -shared -Wl,-soname,libVMC.so -o ../devel/lib/libVMC.so CMakeFiles/VMC.dir/src/VMC.cpp.o 

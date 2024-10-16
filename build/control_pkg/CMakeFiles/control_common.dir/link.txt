@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -O3  -Wall -g  -shared -Wl,-soname,libcontrol_common.so -o ../devel/lib/libcontrol_common.so CMakeFiles/control_common.dir/src/common.cpp.o 

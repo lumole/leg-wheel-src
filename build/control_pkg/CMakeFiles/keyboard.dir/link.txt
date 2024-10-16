@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -O3  -Wall -g  -shared -Wl,-soname,libkeyboard.so -o ../devel/lib/libkeyboard.so CMakeFiles/keyboard.dir/src/keyboard.cpp.o 
