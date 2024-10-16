@@ -1,0 +1,9 @@
+<launch>
+
+    <node pkg="manipulator_pkg" type="manipulator_node" name="manipulator_node"/>
+
+    <node pkg="control_pkg" type="key_parameter_tuning_node" name="key_parameter_tuning_node" launch-prefix="gnome-terminal -e"/>
+    
+    <node pkg="manipulator_pkg" type="cmd2arm_node" name="cmd2arm_node" launch-prefix="gnome-terminal -e"/>
+
+</launch>

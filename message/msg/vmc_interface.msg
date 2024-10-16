@@ -1,0 +1,13 @@
+Header header
+float32 T_l
+int16 T1_l
+int16 T2_l
+float32 T_r
+int16 T1_r
+int16 T2_r
+int16 flag
+float32 F_l
+float32 F_r
+bool if_speed_mode
+float32 speed_l
+float32 speed_r
